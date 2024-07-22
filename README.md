@@ -1,6 +1,7 @@
 # CFLux
 
-### Recommendation to build/install the rails dependencies at onces (from the root) : 
+### Recommendation to build/install the rails dependencies at onces (from the root of the project) : 
+#### Note : this might take 5 minutes or more
 
 ```
 bash cflux/bundle-installation
@@ -10,12 +11,12 @@ bash cflux/bundle-installation
 
 ```
 rails db:create
-rails db:create
+rails db:migrate
 rails db:migrate:status
 ```
 
 ### And, finally, run the app (in the rails project cflux/): 
 
 ```
-rails serve
+rails server
 ```

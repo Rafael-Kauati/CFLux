@@ -1,6 +1,7 @@
 # CFLux
 
 ### Recommendation to build/install the rails dependencies at onces : 
+#### Note : this might take 5 minutes or more
 
 ```
 bash bundle-installation
@@ -10,12 +11,12 @@ bash bundle-installation
 
 ```
 rails db:create
-rails db:create
+rails db:migrate
 rails db:migrate:status
 ```
 
 ### And, finally, run the app : 
 
 ```
-rails serve
+rails server
 ```
