@@ -1,24 +1,21 @@
-# README
+# CFLux
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Recommendation to build/install the rails dependencies at onces : 
 
-Things you may want to cover:
+```
+bash bundle-installation
+```
 
-* Ruby version
+### So after that you can start the database : 
 
-* System dependencies
+```
+rails db:create
+rails db:create
+rails db:migrate:status
+```
 
-* Configuration
+### And, finally, run the app : 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+rails serve
+```
