@@ -1,0 +1,13 @@
+<%= stylesheet_link_tag 'home', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+<div class="container">
+  <h1 class="home-title">Welcome to Your App</h1>
+
+  <% if user_signed_in? %>
+    <div class="welcome-message">
+      <p>Welcome, <%= current_user.name %>!</p>
+    </div>
+  <% else %>
+    <%= link_to 'Login', login_path %>
+  <% end %>
+</div>

@@ -1,0 +1,51 @@
+<%= stylesheet_link_tag 'singin', media: 'all', 'data-turbolinks-track': 'reload' %>
+
+<h1 class="login-title">Login</h1>
+
+<div class="form-container">
+  <%= form_tag login_path, method: :post, class: "login-form" do %>
+    <% if flash[:alert] %>
+      <div class="modal fade" id="alertModal" tabindex="-1" aria-labelledby="alertModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="alertModalLabel">Login Error</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <%= flash[:alert] %>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <% end %>
+    <div class="form-group">
+      <%= label_tag :email %><br>
+      <%= text_field_tag :email, nil, autofocus: true %>
+    </div>
+    <div class="form-group">
+      <%= label_tag :password %><br>
+      <%= password_field_tag :password %>
+    </div>
+    <div class="form-group">
+      <%= submit_tag "Log In", class: "submit-button" %>
+    </div>
+
+    <div class="form-group">
+      <p class="signup-link"><%= link_to "Sign Up", new_singin_path %></p>
+    </div>
+  <% end %>
+</div>
+
+<script>
+  <% if flash[:alert] %>
+    $(document).ready(function() {
+      $('#alertModal').modal('show');
+    });
+  <% end %>
+</script>
