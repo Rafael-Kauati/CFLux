@@ -301,6 +301,7 @@ DEPENDENCIES
   capybara
   debug
   devise
+  ffi
   importmap-rails
   jbuilder
   json (~> 2.7)
