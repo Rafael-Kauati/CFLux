@@ -1,0 +1,16 @@
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/debug-1.9.2/ext/debug
+/usr/bin/ruby -I /usr/lib/ruby/3.0.0 extconf.rb
+creating Makefile
+
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240722-66429-zzrffe sitelibdir\=./.gem.20240722-66429-zzrffe clean
+
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240722-66429-zzrffe sitelibdir\=./.gem.20240722-66429-zzrffe
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240722-66429-zzrffe sitelibdir\=./.gem.20240722-66429-zzrffe install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20240722-66429-zzrffe/debug
