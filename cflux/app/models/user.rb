@@ -5,4 +5,8 @@ class User < ApplicationRecord
     normalizes :email, with: ->(email) { email.strip.downcase }
     
     validates :name, presence: true, format: { with: /\A[a-zA-Z]+\z/ }
-end
+  
+    # Association with transactions
+    has_many :transactions, dependent: :destroy
+  end
+  

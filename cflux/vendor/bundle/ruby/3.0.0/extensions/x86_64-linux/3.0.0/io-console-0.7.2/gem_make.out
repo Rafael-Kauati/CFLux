@@ -13,13 +13,13 @@ checking for rb_scheduler_timeout()... no
 creating Makefile
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20240722-60613-bj3o6c sitelibdir\=./.gem.20240722-60613-bj3o6c clean
+make DESTDIR\= sitearchdir\=./.gem.20240723-144562-owmmzn sitelibdir\=./.gem.20240723-144562-owmmzn clean
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20240722-60613-bj3o6c sitelibdir\=./.gem.20240722-60613-bj3o6c
+make DESTDIR\= sitearchdir\=./.gem.20240723-144562-owmmzn sitelibdir\=./.gem.20240723-144562-owmmzn
 compiling console.c
 linking shared-object io/console.so
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20240722-60613-bj3o6c sitelibdir\=./.gem.20240722-60613-bj3o6c install
-/usr/bin/install -c -m 0755 console.so ./.gem.20240722-60613-bj3o6c/io
+make DESTDIR\= sitearchdir\=./.gem.20240723-144562-owmmzn sitelibdir\=./.gem.20240723-144562-owmmzn install
+/usr/bin/install -c -m 0755 console.so ./.gem.20240723-144562-owmmzn/io

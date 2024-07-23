@@ -5,13 +5,13 @@ checking for rb_reg_onig_match() in ruby.h... no
 creating Makefile
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
-make DESTDIR\= sitearchdir\=./.gem.20240722-60613-jd5mty sitelibdir\=./.gem.20240722-60613-jd5mty clean
+make DESTDIR\= sitearchdir\=./.gem.20240723-144562-ltszgp sitelibdir\=./.gem.20240723-144562-ltszgp clean
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
-make DESTDIR\= sitearchdir\=./.gem.20240722-60613-jd5mty sitelibdir\=./.gem.20240722-60613-jd5mty
+make DESTDIR\= sitearchdir\=./.gem.20240723-144562-ltszgp sitelibdir\=./.gem.20240723-144562-ltszgp
 compiling strscan.c
 linking shared-object strscan.so
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
-make DESTDIR\= sitearchdir\=./.gem.20240722-60613-jd5mty sitelibdir\=./.gem.20240722-60613-jd5mty install
-/usr/bin/install -c -m 0755 strscan.so ./.gem.20240722-60613-jd5mty
+make DESTDIR\= sitearchdir\=./.gem.20240723-144562-ltszgp sitelibdir\=./.gem.20240723-144562-ltszgp install
+/usr/bin/install -c -m 0755 strscan.so ./.gem.20240723-144562-ltszgp

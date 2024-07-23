@@ -1,13 +1,64 @@
-<%= stylesheet_link_tag 'home', media: 'all', 'data-turbolinks-track': 'reload' %>
 
-<div class="container">
-  <h1 class="home-title">Welcome to Your App</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Finance Tracker - Dashboard</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= stylesheet_link_tag 'home', media: 'all', 'data-turbolinks-track': 'reload' %>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Your Dashboard, <%= current_user.name %>!</h1>
+  </header>
 
-  <% if user_signed_in? %>
-    <div class="welcome-message">
-      <p>Welcome, <%= current_user.name %>!</p>
-    </div>
-  <% else %>
-    <%= link_to 'Login', login_path %>
-  <% end %>
-</div>
+  <main>
+    <section>
+      <h2>Financial Summary</h2>
+      <p>Total Income: <%= number_to_currency(@total_income) %></p>
+      <p>Total Expenses: <%= number_to_currency(@total_expenses) %></p>
+      <p>Balance: <%= number_to_currency(@balance) %></p>
+    </section>
+
+    <section>
+      <h2>Your Recent Transactions</h2>
+      <% if @recent_transactions.any? %>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Category</th>
+              <th>Amount</th>
+              <th>Description</th>
+              <th>Type</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% @recent_transactions.each do |transaction| %>
+              <tr>
+                <td><%= transaction.date.strftime('%b %d, %Y') %></td>
+                <td><%= transaction.category %></td>
+                <td><%= number_to_currency(transaction.amount) %></td>
+                <td><%= transaction.description %></td>
+                <td><%= transaction.transaction_type.capitalize %></td>
+              </tr>
+            <% end %>
+          </tbody>
+        </table>
+      <% else %>
+        <p>You have no transactions yet.</p>
+      <% end %>
+    </section>
+
+    <section>
+      <h2>Actions</h2>
+      <%= link_to 'Add New Transaction', new_transaction_path %>
+      <%= link_to 'View All Transactions', transactions_path %>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <%= Time.current.year %> Personal Finance Tracker. All rights reserved.</p>
+  </footer>
+</body>
+</html>

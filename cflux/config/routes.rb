@@ -14,6 +14,9 @@ Rails.application.routes.draw do
   root 'frontpage#index'
   get '/home', to: 'home#index'
 
+  # Resourceful routes for transactions
+  resources :transactions, only: [:new, :create, :index, :edit, :update, :show, :destroy]
+
   # Resources for singin controller with only new and create actions
   resources :singin, only: [:new, :create]
 
