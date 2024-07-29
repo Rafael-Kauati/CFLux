@@ -38,7 +38,7 @@ class HomeController < ApplicationController
   private
 
   def authenticate_user!
-    redirect_to new_session_path unless user_signed_in?
+    redirect_to new_singin_path unless user_signed_in?
   end
 
   def set_transaction

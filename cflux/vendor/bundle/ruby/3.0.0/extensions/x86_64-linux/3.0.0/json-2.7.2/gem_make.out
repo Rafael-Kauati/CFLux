@@ -1,13 +1,13 @@
-current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
+current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
 /usr/bin/ruby -I /usr/lib/ruby/3.0.0 extconf.rb
 creating Makefile
 
-current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
-make DESTDIR\= sitearchdir\=./.gem.20240729-75467-6pn8qb sitelibdir\=./.gem.20240729-75467-6pn8qb clean
+current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240729-127644-jj2bgy sitelibdir\=./.gem.20240729-127644-jj2bgy clean
 
-current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
-make DESTDIR\= sitearchdir\=./.gem.20240729-75467-6pn8qb sitelibdir\=./.gem.20240729-75467-6pn8qb
+current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240729-127644-jj2bgy sitelibdir\=./.gem.20240729-127644-jj2bgy
 make: Nada a ser feito para 'all'. 
 
-current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
-make DESTDIR\= sitearchdir\=./.gem.20240729-75467-6pn8qb sitelibdir\=./.gem.20240729-75467-6pn8qb install
+current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240729-127644-jj2bgy sitelibdir\=./.gem.20240729-127644-jj2bgy install

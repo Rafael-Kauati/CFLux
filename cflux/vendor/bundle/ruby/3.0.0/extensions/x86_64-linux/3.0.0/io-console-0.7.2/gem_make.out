@@ -1,4 +1,4 @@
-current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
+current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
 /usr/bin/ruby -I /usr/lib/ruby/3.0.0 extconf.rb
 checking for rb_io_path()... no
 checking for rb_io_descriptor()... no
@@ -12,14 +12,14 @@ checking for HAVE_RUBY_FIBER_SCHEDULER_H... no
 checking for rb_scheduler_timeout()... no
 creating Makefile
 
-current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20240729-75467-6rkv3d sitelibdir\=./.gem.20240729-75467-6rkv3d clean
+current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240729-127644-6q3h4v sitelibdir\=./.gem.20240729-127644-6q3h4v clean
 
-current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20240729-75467-6rkv3d sitelibdir\=./.gem.20240729-75467-6rkv3d
+current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240729-127644-6q3h4v sitelibdir\=./.gem.20240729-127644-6q3h4v
 compiling console.c
 linking shared-object io/console.so
 
-current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20240729-75467-6rkv3d sitelibdir\=./.gem.20240729-75467-6rkv3d install
-/usr/bin/install -c -m 0755 console.so ./.gem.20240729-75467-6rkv3d/io
+current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240729-127644-6q3h4v sitelibdir\=./.gem.20240729-127644-6q3h4v install
+/usr/bin/install -c -m 0755 console.so ./.gem.20240729-127644-6q3h4v/io

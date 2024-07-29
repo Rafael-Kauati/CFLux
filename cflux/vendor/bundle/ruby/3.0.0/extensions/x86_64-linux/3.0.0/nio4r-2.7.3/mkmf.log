@@ -48,8 +48,8 @@ checked program was:
 /* end */
 
 "gcc -o conftest -I/usr/include/ruby-3.0.0/x86_64-linux -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.    -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -g -ffile-prefix-map=/build/ruby/src=/usr/src/debug/ruby -fPIC conftest.c  -L. -L/usr/lib -L. -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby  -lm   -lc"
-/usr/bin/ld: /tmp/ccltPizd.o: na função "t":
-/home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/nio4r-2.7.3/ext/nio4r/conftest.c:15:(.text+0xc): undefined reference to `rb_io_descriptor'
+/usr/bin/ld: /tmp/ccmiwtal.o: na função "t":
+/home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/nio4r-2.7.3/ext/nio4r/conftest.c:15:(.text+0xc): undefined reference to `rb_io_descriptor'
 collect2: error: ld returned 1 exit status
 checked program was:
 /* begin */
