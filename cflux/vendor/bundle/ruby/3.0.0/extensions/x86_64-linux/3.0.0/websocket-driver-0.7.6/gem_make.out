@@ -3,13 +3,13 @@ current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/web
 creating Makefile
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.6/ext/websocket-driver
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-ko9z7g sitelibdir\=./.gem.20240723-144562-ko9z7g clean
+make DESTDIR\= sitearchdir\=./.gem.20240729-75467-ddm5km sitelibdir\=./.gem.20240729-75467-ddm5km clean
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.6/ext/websocket-driver
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-ko9z7g sitelibdir\=./.gem.20240723-144562-ko9z7g
+make DESTDIR\= sitearchdir\=./.gem.20240729-75467-ddm5km sitelibdir\=./.gem.20240729-75467-ddm5km
 compiling websocket_mask.c
 linking shared-object websocket_mask.so
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.6/ext/websocket-driver
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-ko9z7g sitelibdir\=./.gem.20240723-144562-ko9z7g install
-/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20240723-144562-ko9z7g
+make DESTDIR\= sitearchdir\=./.gem.20240729-75467-ddm5km sitelibdir\=./.gem.20240729-75467-ddm5km install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20240729-75467-ddm5km

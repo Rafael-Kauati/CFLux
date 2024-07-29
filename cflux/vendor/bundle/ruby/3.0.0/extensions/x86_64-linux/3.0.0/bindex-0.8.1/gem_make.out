@@ -3,13 +3,13 @@ current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bin
 creating Makefile
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-dyys45 sitelibdir\=./.gem.20240723-144562-dyys45 clean
+make DESTDIR\= sitearchdir\=./.gem.20240729-75467-cb3zns sitelibdir\=./.gem.20240729-75467-cb3zns clean
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-dyys45 sitelibdir\=./.gem.20240723-144562-dyys45
+make DESTDIR\= sitearchdir\=./.gem.20240729-75467-cb3zns sitelibdir\=./.gem.20240729-75467-cb3zns
 compiling cruby.c
 linking shared-object skiptrace/internal/cruby.so
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bindex-0.8.1/ext/skiptrace
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-dyys45 sitelibdir\=./.gem.20240723-144562-dyys45 install
-/usr/bin/install -c -m 0755 cruby.so ./.gem.20240723-144562-dyys45/skiptrace/internal
+make DESTDIR\= sitearchdir\=./.gem.20240729-75467-cb3zns sitelibdir\=./.gem.20240729-75467-cb3zns install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20240729-75467-cb3zns/skiptrace/internal

@@ -3,13 +3,13 @@ current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/str
 creating Makefile
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-dgj2z4 sitelibdir\=./.gem.20240723-144562-dgj2z4 clean
+make DESTDIR\= sitearchdir\=./.gem.20240729-75467-f6oulc sitelibdir\=./.gem.20240729-75467-f6oulc clean
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-dgj2z4 sitelibdir\=./.gem.20240723-144562-dgj2z4
+make DESTDIR\= sitearchdir\=./.gem.20240729-75467-f6oulc sitelibdir\=./.gem.20240729-75467-f6oulc
 compiling stringio.c
 linking shared-object stringio.so
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-dgj2z4 sitelibdir\=./.gem.20240723-144562-dgj2z4 install
-/usr/bin/install -c -m 0755 stringio.so ./.gem.20240723-144562-dgj2z4
+make DESTDIR\= sitearchdir\=./.gem.20240729-75467-f6oulc sitelibdir\=./.gem.20240729-75467-f6oulc install
+/usr/bin/install -c -m 0755 stringio.so ./.gem.20240729-75467-f6oulc
