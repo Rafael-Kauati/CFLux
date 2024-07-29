@@ -2,9 +2,11 @@ name: "CFlux CI"
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - dev
+      - main
   pull_request:
-    branches: [ "main" ]
+    types: [opened, synchronize, reopened]
 
 jobs:
   test:
