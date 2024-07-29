@@ -28,4 +28,9 @@ class SinginController < ApplicationController
   def user_params
     params.require(:user).permit(:name, :email, :password, :password_confirmation) 
   end
+
+  def user_signed_in?
+    session[:user_id].present?
+  end
+  helper_method :user_signed_in?
 end

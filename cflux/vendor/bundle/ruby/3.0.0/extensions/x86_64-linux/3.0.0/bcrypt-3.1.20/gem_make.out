@@ -1,12 +1,12 @@
-current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.20/ext/mri
+current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.20/ext/mri
 /usr/bin/ruby -I /usr/lib/ruby/3.0.0 extconf.rb
 creating Makefile
 
-current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.20/ext/mri
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-jljofe sitelibdir\=./.gem.20240723-144562-jljofe clean
+current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.20/ext/mri
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-w4k6ai sitelibdir\=./.gem.20240729-169608-w4k6ai clean
 
-current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.20/ext/mri
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-jljofe sitelibdir\=./.gem.20240723-144562-jljofe
+current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.20/ext/mri
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-w4k6ai sitelibdir\=./.gem.20240729-169608-w4k6ai
 compiling bcrypt_ext.c
 compiling crypt_blowfish.c
 gcc  -D__SKIP_GNU     -c -o x86.o x86.S
@@ -17,6 +17,6 @@ wrapper.c:182:60: warning: ‘struct crypt_data’ declared inside parameter lis
       |                                                            ^~~~~~~~~~
 linking shared-object bcrypt_ext.so
 
-current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.20/ext/mri
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-jljofe sitelibdir\=./.gem.20240723-144562-jljofe install
-/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20240723-144562-jljofe
+current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.20/ext/mri
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-w4k6ai sitelibdir\=./.gem.20240729-169608-w4k6ai install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20240729-169608-w4k6ai

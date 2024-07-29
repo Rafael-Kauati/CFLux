@@ -1,4 +1,4 @@
-current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bigdecimal-3.1.8/ext/bigdecimal
+current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bigdecimal-3.1.8/ext/bigdecimal
 /usr/bin/ruby -I /usr/lib/ruby/3.0.0 extconf.rb
 checking for __builtin_clz()... yes
 checking for __builtin_clzl()... yes
@@ -31,15 +31,15 @@ checking for rb_category_warn() in ruby.h... yes
 checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
 creating Makefile
 
-current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-5q7faz sitelibdir\=./.gem.20240723-144562-5q7faz clean
+current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bigdecimal-3.1.8/ext/bigdecimal
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-5e10qb sitelibdir\=./.gem.20240729-169608-5e10qb clean
 
-current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-5q7faz sitelibdir\=./.gem.20240723-144562-5q7faz
+current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bigdecimal-3.1.8/ext/bigdecimal
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-5e10qb sitelibdir\=./.gem.20240729-169608-5e10qb
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.so
 
-current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-5q7faz sitelibdir\=./.gem.20240723-144562-5q7faz install
-/usr/bin/install -c -m 0755 bigdecimal.so ./.gem.20240723-144562-5q7faz
+current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bigdecimal-3.1.8/ext/bigdecimal
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-5e10qb sitelibdir\=./.gem.20240729-169608-5e10qb install
+/usr/bin/install -c -m 0755 bigdecimal.so ./.gem.20240729-169608-5e10qb

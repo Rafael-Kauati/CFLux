@@ -1,12 +1,12 @@
-current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
+current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
 /usr/bin/ruby -I /usr/lib/ruby/3.0.0 extconf.rb
 creating Makefile
 
-current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-e7oa3i sitelibdir\=./.gem.20240723-144562-e7oa3i clean
+current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-bv2s8t sitelibdir\=./.gem.20240729-169608-bv2s8t clean
 
-current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-e7oa3i sitelibdir\=./.gem.20240723-144562-e7oa3i
+current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-bv2s8t sitelibdir\=./.gem.20240729-169608-bv2s8t
 compiling ./libsass/src/ast.cpp
 compiling ./libsass/src/ast2c.cpp
 compiling ./libsass/src/ast_fwd_decl.cpp
@@ -75,6 +75,6 @@ compiling ./libsass/src/util_string.cpp
 compiling ./libsass/src/values.cpp
 linking shared-object sassc/libsass.so
 
-current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-e7oa3i sitelibdir\=./.gem.20240723-144562-e7oa3i install
-/usr/bin/install -c -m 0755 libsass.so ./.gem.20240723-144562-e7oa3i/sassc
+current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-bv2s8t sitelibdir\=./.gem.20240729-169608-bv2s8t install
+/usr/bin/install -c -m 0755 libsass.so ./.gem.20240729-169608-bv2s8t/sassc
