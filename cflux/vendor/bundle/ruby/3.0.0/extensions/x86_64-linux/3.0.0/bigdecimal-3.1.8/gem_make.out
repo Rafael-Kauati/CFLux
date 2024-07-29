@@ -32,14 +32,14 @@ checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
 creating Makefile
 
 current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240729-127644-yiw6me sitelibdir\=./.gem.20240729-127644-yiw6me clean
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-5e10qb sitelibdir\=./.gem.20240729-169608-5e10qb clean
 
 current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240729-127644-yiw6me sitelibdir\=./.gem.20240729-127644-yiw6me
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-5e10qb sitelibdir\=./.gem.20240729-169608-5e10qb
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.so
 
 current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240729-127644-yiw6me sitelibdir\=./.gem.20240729-127644-yiw6me install
-/usr/bin/install -c -m 0755 bigdecimal.so ./.gem.20240729-127644-yiw6me
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-5e10qb sitelibdir\=./.gem.20240729-169608-5e10qb install
+/usr/bin/install -c -m 0755 bigdecimal.so ./.gem.20240729-169608-5e10qb

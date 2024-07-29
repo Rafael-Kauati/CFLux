@@ -3,10 +3,10 @@ current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.
 creating Makefile
 
 current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20240729-127644-s2p5fh sitelibdir\=./.gem.20240729-127644-s2p5fh clean
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-bv2s8t sitelibdir\=./.gem.20240729-169608-bv2s8t clean
 
 current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20240729-127644-s2p5fh sitelibdir\=./.gem.20240729-127644-s2p5fh
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-bv2s8t sitelibdir\=./.gem.20240729-169608-bv2s8t
 compiling ./libsass/src/ast.cpp
 compiling ./libsass/src/ast2c.cpp
 compiling ./libsass/src/ast_fwd_decl.cpp
@@ -76,5 +76,5 @@ compiling ./libsass/src/values.cpp
 linking shared-object sassc/libsass.so
 
 current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20240729-127644-s2p5fh sitelibdir\=./.gem.20240729-127644-s2p5fh install
-/usr/bin/install -c -m 0755 libsass.so ./.gem.20240729-127644-s2p5fh/sassc
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-bv2s8t sitelibdir\=./.gem.20240729-169608-bv2s8t install
+/usr/bin/install -c -m 0755 libsass.so ./.gem.20240729-169608-bv2s8t/sassc

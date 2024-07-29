@@ -13,13 +13,13 @@ checking for rb_scheduler_timeout()... no
 creating Makefile
 
 current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20240729-127644-6q3h4v sitelibdir\=./.gem.20240729-127644-6q3h4v clean
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-bnsa0z sitelibdir\=./.gem.20240729-169608-bnsa0z clean
 
 current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20240729-127644-6q3h4v sitelibdir\=./.gem.20240729-127644-6q3h4v
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-bnsa0z sitelibdir\=./.gem.20240729-169608-bnsa0z
 compiling console.c
 linking shared-object io/console.so
 
 current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20240729-127644-6q3h4v sitelibdir\=./.gem.20240729-127644-6q3h4v install
-/usr/bin/install -c -m 0755 console.so ./.gem.20240729-127644-6q3h4v/io
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-bnsa0z sitelibdir\=./.gem.20240729-169608-bnsa0z install
+/usr/bin/install -c -m 0755 console.so ./.gem.20240729-169608-bnsa0z/io

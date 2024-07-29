@@ -7,13 +7,13 @@ checking for whether -std=c99 is accepted as CFLAGS... yes
 creating Makefile
 
 current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.18.3/ext/bootsnap
-make DESTDIR\= sitearchdir\=./.gem.20240729-127644-q6ak2w sitelibdir\=./.gem.20240729-127644-q6ak2w clean
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-8bt04j sitelibdir\=./.gem.20240729-169608-8bt04j clean
 
 current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.18.3/ext/bootsnap
-make DESTDIR\= sitearchdir\=./.gem.20240729-127644-q6ak2w sitelibdir\=./.gem.20240729-127644-q6ak2w
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-8bt04j sitelibdir\=./.gem.20240729-169608-8bt04j
 compiling bootsnap.c
 linking shared-object bootsnap/bootsnap.so
 
 current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.18.3/ext/bootsnap
-make DESTDIR\= sitearchdir\=./.gem.20240729-127644-q6ak2w sitelibdir\=./.gem.20240729-127644-q6ak2w install
-/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20240729-127644-q6ak2w/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-8bt04j sitelibdir\=./.gem.20240729-169608-8bt04j install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20240729-169608-8bt04j/bootsnap

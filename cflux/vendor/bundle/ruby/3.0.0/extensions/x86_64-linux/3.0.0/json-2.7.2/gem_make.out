@@ -3,11 +3,11 @@ current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.
 creating Makefile
 
 current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
-make DESTDIR\= sitearchdir\=./.gem.20240729-127644-jj2bgy sitelibdir\=./.gem.20240729-127644-jj2bgy clean
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-2vuumf sitelibdir\=./.gem.20240729-169608-2vuumf clean
 
 current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
-make DESTDIR\= sitearchdir\=./.gem.20240729-127644-jj2bgy sitelibdir\=./.gem.20240729-127644-jj2bgy
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-2vuumf sitelibdir\=./.gem.20240729-169608-2vuumf
 make: Nada a ser feito para 'all'. 
 
 current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
-make DESTDIR\= sitearchdir\=./.gem.20240729-127644-jj2bgy sitelibdir\=./.gem.20240729-127644-jj2bgy install
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-2vuumf sitelibdir\=./.gem.20240729-169608-2vuumf install

@@ -3,13 +3,13 @@ current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.
 creating Makefile
 
 current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/racc-1.8.0/ext/racc/cparse
-make DESTDIR\= sitearchdir\=./.gem.20240729-127644-212t7f sitelibdir\=./.gem.20240729-127644-212t7f clean
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-8mu4bn sitelibdir\=./.gem.20240729-169608-8mu4bn clean
 
 current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/racc-1.8.0/ext/racc/cparse
-make DESTDIR\= sitearchdir\=./.gem.20240729-127644-212t7f sitelibdir\=./.gem.20240729-127644-212t7f
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-8mu4bn sitelibdir\=./.gem.20240729-169608-8mu4bn
 compiling cparse.c
 linking shared-object racc/cparse.so
 
 current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/racc-1.8.0/ext/racc/cparse
-make DESTDIR\= sitearchdir\=./.gem.20240729-127644-212t7f sitelibdir\=./.gem.20240729-127644-212t7f install
-/usr/bin/install -c -m 0755 cparse.so ./.gem.20240729-127644-212t7f/racc
+make DESTDIR\= sitearchdir\=./.gem.20240729-169608-8mu4bn sitelibdir\=./.gem.20240729-169608-8mu4bn install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20240729-169608-8mu4bn/racc
