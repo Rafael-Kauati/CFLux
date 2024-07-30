@@ -1,4 +1,4 @@
-# CFLux
+# CFLux - A personal finance tracker project made with Rails and Ruby 
 
 ### Recommendation to build/install the rails dependencies at onces (from the root of the project) : 
 #### Note : this might take 5 minutes or more

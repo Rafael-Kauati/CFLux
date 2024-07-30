@@ -1,41 +1,30 @@
 <%= form_with(model: transaction, url: create_transaction_path, local: true) do |form| %>
-  <% if transaction.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(transaction.errors.count, "error") %> prohibited this transaction from being saved:</h2>
-      <ul>
-        <% transaction.errors.full_messages.each do |message| %>
-          <li><%= message %></li>
-        <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-  <div>
+ <div class="field">
     <%= form.label :date %>
     <%= form.date_field :date %>
   </div>
 
-  <div>
+  <div class="field">
     <%= form.label :category %>
-    <%= form.text_field :category %>
+    <%= form.select :category, options_for_select(Transaction::CATEGORIES, transaction.category) %>
   </div>
 
-  <div>
+  <div class="field">
     <%= form.label :amount %>
-    <%= form.number_field :amount, step: 0.01 %>
+    <%= form.number_field :amount, step: :any %>
   </div>
 
-  <div>
+  <div class="field">
     <%= form.label :description %>
     <%= form.text_area :description %>
   </div>
 
-  <div>
+  <div class="field">
     <%= form.label :transaction_type %>
-    <%= form.select :transaction_type, [['Income', 'income'], ['Expense', 'expense']] %>
+    <%= form.select :transaction_type, options_for_select(%w[income expense], transaction.transaction_type) %>
   </div>
 
-  <div>
+  <div class="actions">
     <%= form.submit %>
   </div>
 <% end %>
