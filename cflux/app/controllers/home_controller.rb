@@ -45,7 +45,9 @@ class HomeController < ApplicationController
     @transaction = current_user.transactions.find(params[:id])
   end
 
+
   def transaction_params
     params.require(:transaction).permit(:amount, :date, :category, :description, :transaction_type)
   end
+
 end

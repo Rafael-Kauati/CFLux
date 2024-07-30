@@ -1,4 +1,4 @@
-current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/puma-6.4.2/ext/puma_http11
+current directory: /home/tk/ilhwae/cfluxFeature/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/puma-6.4.2/ext/puma_http11
 /usr/bin/ruby -I /usr/lib/ruby/3.0.0 extconf.rb
 using OpenSSL pkgconfig (openssl.pc)
 checking for openssl/bio.h... yes
@@ -13,16 +13,16 @@ checking for SSL_get1_peer_certificate() in openssl/ssl.h... yes
 checking for Random.bytes... yes
 creating Makefile
 
-current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/puma-6.4.2/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20240729-169608-dl243d sitelibdir\=./.gem.20240729-169608-dl243d clean
+current directory: /home/tk/ilhwae/cfluxFeature/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/puma-6.4.2/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20240730-110177-90gbcd sitelibdir\=./.gem.20240730-110177-90gbcd clean
 
-current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/puma-6.4.2/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20240729-169608-dl243d sitelibdir\=./.gem.20240729-169608-dl243d
+current directory: /home/tk/ilhwae/cfluxFeature/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/puma-6.4.2/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20240730-110177-90gbcd sitelibdir\=./.gem.20240730-110177-90gbcd
 compiling http11_parser.c
 compiling mini_ssl.c
 compiling puma_http11.c
 linking shared-object puma/puma_http11.so
 
-current directory: /home/tk/ilhwae/testcflux/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/puma-6.4.2/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20240729-169608-dl243d sitelibdir\=./.gem.20240729-169608-dl243d install
-/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20240729-169608-dl243d/puma
+current directory: /home/tk/ilhwae/cfluxFeature/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/puma-6.4.2/ext/puma_http11
+make DESTDIR\= sitearchdir\=./.gem.20240730-110177-90gbcd sitelibdir\=./.gem.20240730-110177-90gbcd install
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20240730-110177-90gbcd/puma
