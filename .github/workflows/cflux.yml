@@ -32,14 +32,8 @@ jobs:
           ruby-version: '3.0.6'
           bundler-cache: true
 
-      - name: Prepare environment
-        run: |
-          rm -rf vendor/
-          bundle config set --local path 'vendor/bundle'
-        working-directory: cflux
-
-      - name: Install dependencies
-        run: bundle install --verbose
+      - name: Prepare environment & Install dependencies
+        run: bash bundle-installation
         working-directory: cflux
 
       - name: Set up database schema
