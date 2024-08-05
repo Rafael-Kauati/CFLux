@@ -1,10 +1,11 @@
 .container {
   display: flex;
-  flex-direction: column; /* Stack elements vertically */
-  justify-content: flex-start; /* Align content at the top */
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  height: 100vh; /* Adjust height as needed */
+  height: 100vh;
   padding: 20px;
+  margin-top: 80px;
   box-sizing: border-box;
 }
 
@@ -21,11 +22,37 @@
 
 header, main, footer {
   width: 100%;
-  max-width: 800px;
+  max-width: 1200px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px; /* Add gap between the sections */
 }
 
 section {
   margin-bottom: 20px;
+}
+
+.left-section, .center-section, .right-section {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.left-section {
+  order: 1;
+}
+
+.center-section {
+  order: 2;
+  text-align: center;
+}
+
+.right-section {
+  order: 3;
 }
 
 table {

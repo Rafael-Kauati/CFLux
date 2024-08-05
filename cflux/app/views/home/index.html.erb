@@ -13,15 +13,20 @@
       <h1 class="home-title">Welcome to Your Dashboard, <%= current_user.name %>!</h1>
     </header>
 
-    <main>
-      <section>
+    <main class="main-content">
+      <section class="left-section">
+        <h2>Add New Transaction</h2>
+        <%= render 'partials/transaction_form', transaction: @transaction %>
+      </section>
+
+      <section class="center-section">
         <h2>Financial Summary</h2>
         <p>Total Income: <%= number_to_currency(@total_income) %></p>
         <p>Total Expenses: <%= number_to_currency(@total_expenses) %></p>
         <p class="<%= balance_class(@balance) %>">Balance: <%= number_to_currency(@balance) %></p>
       </section>
 
-      <section>
+      <section class="right-section">
         <h2>Your Recent Transactions</h2>
         <% if @recent_transactions.any? %>
           <table>
@@ -54,11 +59,6 @@
         <% else %>
           <p>You have no transactions yet.</p>
         <% end %>
-      </section>
-
-      <section>
-        <h2>Add New Transaction</h2>
-        <%= render 'partials/transaction_form', transaction: @transaction %>
       </section>
     </main>
 
