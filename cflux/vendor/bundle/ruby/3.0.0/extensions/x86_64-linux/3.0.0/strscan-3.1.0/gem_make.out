@@ -1,17 +1,17 @@
-current directory: /home/tk/ilhwae/cfluxFeature/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
+current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
 /usr/bin/ruby -I /usr/lib/ruby/3.0.0 extconf.rb
 checking for onig_region_memsize() in ruby.h... yes
 checking for rb_reg_onig_match() in ruby.h... no
 creating Makefile
 
-current directory: /home/tk/ilhwae/cfluxFeature/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
-make DESTDIR\= sitearchdir\=./.gem.20240730-110177-er36wk sitelibdir\=./.gem.20240730-110177-er36wk clean
+current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240730-295091-5f09am sitelibdir\=./.gem.20240730-295091-5f09am clean
 
-current directory: /home/tk/ilhwae/cfluxFeature/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
-make DESTDIR\= sitearchdir\=./.gem.20240730-110177-er36wk sitelibdir\=./.gem.20240730-110177-er36wk
+current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240730-295091-5f09am sitelibdir\=./.gem.20240730-295091-5f09am
 compiling strscan.c
 linking shared-object strscan.so
 
-current directory: /home/tk/ilhwae/cfluxFeature/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
-make DESTDIR\= sitearchdir\=./.gem.20240730-110177-er36wk sitelibdir\=./.gem.20240730-110177-er36wk install
-/usr/bin/install -c -m 0755 strscan.so ./.gem.20240730-110177-er36wk
+current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20240730-295091-5f09am sitelibdir\=./.gem.20240730-295091-5f09am install
+/usr/bin/install -c -m 0755 strscan.so ./.gem.20240730-295091-5f09am

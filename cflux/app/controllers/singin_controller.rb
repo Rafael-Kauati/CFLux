@@ -7,7 +7,7 @@ class SinginController < ApplicationController
     puts "Params before user_params: #{params}"
   
     # Basic validation to check for presence of :user key
-    if !params.key?(:user)
+    unless params.key?(:user)
       flash[:error] = "Invalid user data submitted."
       return render :new, status: :unprocessable_entity
     end
@@ -15,14 +15,12 @@ class SinginController < ApplicationController
     @user = User.new(user_params)
     if @user.save  
       puts "Saved user attributes: #{@user.attributes}"
-      login_url(@user)
-      redirect_to home_path, notice: "Successfully registered!"
+      redirect_to home_index_url
     else
       render :new, status: :unprocessable_entity
     end
   end
   
-
   private
 
   def user_params
