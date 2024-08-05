@@ -1,15 +1,15 @@
-current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.6/ext/websocket-driver
 /usr/bin/ruby -I /usr/lib/ruby/3.0.0 extconf.rb
 creating Makefile
 
-current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.6/ext/websocket-driver
-make DESTDIR\= sitearchdir\=./.gem.20240730-295091-lamsgk sitelibdir\=./.gem.20240730-295091-lamsgk clean
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240805-73404-nnwem4 sitelibdir\=./.gem.20240805-73404-nnwem4 clean
 
-current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.6/ext/websocket-driver
-make DESTDIR\= sitearchdir\=./.gem.20240730-295091-lamsgk sitelibdir\=./.gem.20240730-295091-lamsgk
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240805-73404-nnwem4 sitelibdir\=./.gem.20240805-73404-nnwem4
 compiling websocket_mask.c
 linking shared-object websocket_mask.so
 
-current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.6/ext/websocket-driver
-make DESTDIR\= sitearchdir\=./.gem.20240730-295091-lamsgk sitelibdir\=./.gem.20240730-295091-lamsgk install
-/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20240730-295091-lamsgk
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.6/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20240805-73404-nnwem4 sitelibdir\=./.gem.20240805-73404-nnwem4 install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20240805-73404-nnwem4

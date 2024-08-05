@@ -1,4 +1,4 @@
-current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/nio4r-2.7.3/ext/nio4r
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/nio4r-2.7.3/ext/nio4r
 /usr/bin/ruby -I /usr/lib/ruby/3.0.0 extconf.rb
 checking for unistd.h... yes
 checking for rb_io_descriptor()... no
@@ -12,11 +12,11 @@ checking for port_event_t in port.h... no
 checking for sys/resource.h... yes
 creating Makefile
 
-current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/nio4r-2.7.3/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20240730-295091-m8ga94 sitelibdir\=./.gem.20240730-295091-m8ga94 clean
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/nio4r-2.7.3/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20240805-73404-4au2gm sitelibdir\=./.gem.20240805-73404-4au2gm clean
 
-current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/nio4r-2.7.3/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20240730-295091-m8ga94 sitelibdir\=./.gem.20240730-295091-m8ga94
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/nio4r-2.7.3/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20240805-73404-4au2gm sitelibdir\=./.gem.20240805-73404-4au2gm
 compiling bytebuffer.c
 compiling monitor.c
 compiling nio4r_ext.c
@@ -45,6 +45,6 @@ selector.c:525:5: warning: ignoring return value of ‘write’ declared with at
       |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 linking shared-object nio4r_ext.so
 
-current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/nio4r-2.7.3/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20240730-295091-m8ga94 sitelibdir\=./.gem.20240730-295091-m8ga94 install
-/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20240730-295091-m8ga94
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/nio4r-2.7.3/ext/nio4r
+make DESTDIR\= sitearchdir\=./.gem.20240805-73404-4au2gm sitelibdir\=./.gem.20240805-73404-4au2gm install
+/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20240805-73404-4au2gm

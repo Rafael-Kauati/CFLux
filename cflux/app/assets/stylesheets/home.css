@@ -1,19 +1,62 @@
 .container {
-    display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    justify-content: flex-start; /* Align content at the top */
-    align-items: center;
-    height: 100vh; /* Adjust height as needed */
-  }
-  
-  .home-title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .welcome-message {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 18px;
-  }
-  
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: flex-start; /* Align content at the top */
+  align-items: center;
+  height: 100vh; /* Adjust height as needed */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.home-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.welcome-message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+header, main, footer {
+  width: 100%;
+  max-width: 800px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.balance-positive {
+  color: green;
+}
+
+.balance-zero {
+  color: black;
+}
+
+.balance-negative {
+  color: red;
+}

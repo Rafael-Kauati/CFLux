@@ -1,15 +1,15 @@
-current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
 /usr/bin/ruby -I /usr/lib/ruby/3.0.0 extconf.rb
 creating Makefile
 
-current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
-make DESTDIR\= sitearchdir\=./.gem.20240730-295091-i05dyi sitelibdir\=./.gem.20240730-295091-i05dyi clean
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240805-73404-saesg sitelibdir\=./.gem.20240805-73404-saesg clean
 
-current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
-make DESTDIR\= sitearchdir\=./.gem.20240730-295091-i05dyi sitelibdir\=./.gem.20240730-295091-i05dyi
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240805-73404-saesg sitelibdir\=./.gem.20240805-73404-saesg
 compiling stringio.c
 linking shared-object stringio.so
 
-current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
-make DESTDIR\= sitearchdir\=./.gem.20240730-295091-i05dyi sitelibdir\=./.gem.20240730-295091-i05dyi install
-/usr/bin/install -c -m 0755 stringio.so ./.gem.20240730-295091-i05dyi
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20240805-73404-saesg sitelibdir\=./.gem.20240805-73404-saesg install
+/usr/bin/install -c -m 0755 stringio.so ./.gem.20240805-73404-saesg
