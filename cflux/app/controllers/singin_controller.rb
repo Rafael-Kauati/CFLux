@@ -4,7 +4,6 @@ class SinginController < ApplicationController
   end
 
   def create
-    puts "Params before user_params: #{params}"
   
     # Basic validation to check for presence of :user key
     unless params.key?(:user)
@@ -13,12 +12,13 @@ class SinginController < ApplicationController
     end
   
     @user = User.new(user_params)
-    if @user.save  
+    if @user.save 
       puts "Saved user attributes: #{@user.attributes}"
-      redirect_to home_index_url
+      redirect_to login_path
     else
       render :new, status: :unprocessable_entity
     end
+
   end
   
   private
