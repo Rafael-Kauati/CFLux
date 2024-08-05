@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -20,16 +26,18 @@
   font-size: 18px;
 }
 
-header, main, footer {
+header, footer {
   width: 100%;
   max-width: 1200px;
+  text-align: center;
 }
 
 .main-content {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   width: 100%;
-  gap: 20px; /* Add gap between the sections */
+  gap: 20px;
 }
 
 section {
@@ -37,22 +45,23 @@ section {
 }
 
 .left-section, .center-section, .right-section {
-  flex: 1;
   padding: 10px;
   box-sizing: border-box;
 }
 
 .left-section {
-  order: 1;
+  flex: 1 1 20%;
+  text-align: left;
 }
 
 .center-section {
-  order: 2;
+  flex: 1 1 60%;
   text-align: center;
 }
 
 .right-section {
-  order: 3;
+  flex: 1 1 20%;
+  text-align: right;
 }
 
 table {
