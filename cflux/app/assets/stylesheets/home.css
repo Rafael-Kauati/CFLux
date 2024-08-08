@@ -145,3 +145,12 @@ form {
 .actions input[type="submit"]:hover {
   background-color: #45a049;
 }
+
+.field_with_errors {
+  border-color: red;
+}
+
+.error_message {
+  color: red;
+  font-size: 0.9em;
+}
