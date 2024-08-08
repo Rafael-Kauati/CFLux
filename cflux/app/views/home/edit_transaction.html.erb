@@ -4,7 +4,8 @@
   <title>Edit Transaction</title>
   <%= csrf_meta_tags %>
   <%= csp_meta_tag %>
-  <%= stylesheet_link_tag 'home', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= stylesheet_link_tag 'edit_transaction', media: 'all', 'data-turbolinks-track': 'reload' %>
 </head>
 <body>
   <header>
@@ -12,7 +13,7 @@
   </header>
 
   <main>
-    <%= form_with(model: @transaction, url: update_transaction_path(@transaction), local: true, method: :patch) do |form| %>
+    <%= form_with(model: @transaction, url: update_transaction_path(@transaction), local: true, method: :patch, html: { class: 'edit-transaction-form' }) do |form| %>
       <% if @transaction.errors.any? %>
         <div id="error_explanation">
           <h2><%= pluralize(@transaction.errors.count, "error") %> prohibited this transaction from being saved:</h2>
@@ -24,32 +25,32 @@
         </div>
       <% end %>
 
-      <div>
+      <div class="field">
         <%= form.label :date %>
         <%= form.date_field :date %>
       </div>
 
-      <div>
+      <div class="field">
         <%= form.label :category %>
-        <%= form.text_field :category %>
+        <%= form.select :category, options_for_select(Transaction::CATEGORIES, @transaction.category) %>
       </div>
 
-      <div>
+      <div class="field">
         <%= form.label :amount %>
         <%= form.number_field :amount, step: 0.01 %>
       </div>
 
-      <div>
+      <div class="field">
         <%= form.label :description %>
         <%= form.text_area :description %>
       </div>
 
-      <div>
+      <div class="field">
         <%= form.label :transaction_type %>
         <%= form.select :transaction_type, [['Income', 'income'], ['Expense', 'expense']] %>
       </div>
 
-      <div>
+      <div class="actions">
         <%= form.submit 'Update Transaction' %>
       </div>
     <% end %>

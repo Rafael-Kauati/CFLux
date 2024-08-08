@@ -1,17 +1,27 @@
 <%= form_with(model: transaction, url: create_transaction_path, local: true) do |form| %>
- <div class="field">
+  <div class="field <%= 'field_with_errors' if transaction.errors[:date].any? %>">
     <%= form.label :date %>
     <%= form.date_field :date %>
+    <% if transaction.errors[:date].any? %>
+      <div class="error_message">
+        <%= transaction.errors[:date].first %>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="field <%= 'field_with_errors' if transaction.errors[:amount].any? %>">
+    <%= form.label :amount %>
+    <%= form.number_field :amount, step: :any %>
+    <% if transaction.errors[:amount].any? %>
+      <div class="error_message">
+        <%= transaction.errors[:amount].first %>
+      </div>
+    <% end %>
   </div>
 
   <div class="field">
     <%= form.label :category %>
     <%= form.select :category, options_for_select(Transaction::CATEGORIES, transaction.category) %>
-  </div>
-
-  <div class="field">
-    <%= form.label :amount %>
-    <%= form.number_field :amount, step: :any %>
   </div>
 
   <div class="field">

@@ -1,19 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
-    display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    justify-content: flex-start; /* Align content at the top */
-    align-items: center;
-    height: 100vh; /* Adjust height as needed */
-  }
-  
-  .home-title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .welcome-message {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 18px;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.home-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.welcome-message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+header, footer {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  gap: 110px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.left-section, .center-section, .right-section {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.left-section {
+  flex: 1 1 20%;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow added */
+  border-radius: 8px; /* Optional: Add rounded corners for a better appearance */
+}
+
+.center-section {
+  flex: 1 1 60%;
+  text-align: center;
+}
+
+.right-section {
+  flex: 1 1 20%;
+  text-align: right;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 12px; /* Increased padding for larger cells */
+  text-align: center; /* Center-align text for better layout */
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+table td {
+  min-width: 150px; /* Minimum width for table cells */
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.balance-positive {
+  color: green;
+}
+
+.balance-zero {
+  color: black;
+}
+
+.balance-negative {
+  color: red;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Gap between form fields */
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.field input,
+.field select,
+.field textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.actions input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.actions input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.field_with_errors {
+  border-color: red;
+}
+
+.error_message {
+  color: red;
+  font-size: 0.9em;
+}

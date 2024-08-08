@@ -1,4 +1,4 @@
-current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
 /usr/bin/ruby -I /usr/lib/ruby/3.0.0 extconf.rb
 checking for rb_io_path()... no
 checking for rb_io_descriptor()... no
@@ -12,14 +12,14 @@ checking for HAVE_RUBY_FIBER_SCHEDULER_H... no
 checking for rb_scheduler_timeout()... no
 creating Makefile
 
-current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20240730-295091-409tde sitelibdir\=./.gem.20240730-295091-409tde clean
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240805-73404-tk8z1m sitelibdir\=./.gem.20240805-73404-tk8z1m clean
 
-current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20240730-295091-409tde sitelibdir\=./.gem.20240730-295091-409tde
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240805-73404-tk8z1m sitelibdir\=./.gem.20240805-73404-tk8z1m
 compiling console.c
 linking shared-object io/console.so
 
-current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20240730-295091-409tde sitelibdir\=./.gem.20240730-295091-409tde install
-/usr/bin/install -c -m 0755 console.so ./.gem.20240730-295091-409tde/io
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
+make DESTDIR\= sitearchdir\=./.gem.20240805-73404-tk8z1m sitelibdir\=./.gem.20240805-73404-tk8z1m install
+/usr/bin/install -c -m 0755 console.so ./.gem.20240805-73404-tk8z1m/io

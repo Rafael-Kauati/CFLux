@@ -1,16 +1,16 @@
-current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/debug-1.9.2/ext/debug
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/debug-1.9.2/ext/debug
 /usr/bin/ruby -I /usr/lib/ruby/3.0.0 extconf.rb
 creating Makefile
 
-current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/debug-1.9.2/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20240730-295091-sf7ir1 sitelibdir\=./.gem.20240730-295091-sf7ir1 clean
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240805-73404-u6jeo6 sitelibdir\=./.gem.20240805-73404-u6jeo6 clean
 
-current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/debug-1.9.2/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20240730-295091-sf7ir1 sitelibdir\=./.gem.20240730-295091-sf7ir1
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240805-73404-u6jeo6 sitelibdir\=./.gem.20240805-73404-u6jeo6
 compiling debug.c
 compiling iseq_collector.c
 linking shared-object debug/debug.so
 
-current directory: /home/tk/ilhwae/cfluxHotfix/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/debug-1.9.2/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20240730-295091-sf7ir1 sitelibdir\=./.gem.20240730-295091-sf7ir1 install
-/usr/bin/install -c -m 0755 debug.so ./.gem.20240730-295091-sf7ir1/debug
+current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20240805-73404-u6jeo6 sitelibdir\=./.gem.20240805-73404-u6jeo6 install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20240805-73404-u6jeo6/debug

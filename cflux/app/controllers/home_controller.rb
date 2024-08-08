@@ -3,21 +3,28 @@ class HomeController < ApplicationController
   before_action :set_transaction, only: [:edit_transaction, :update_transaction, :destroy_transaction]
 
   def index
-    @total_income = current_user.transactions.where(transaction_type: 'income').sum(:amount)
-    @total_expenses = current_user.transactions.where(transaction_type: 'expense').sum(:amount)
+    @total_income = current_user.transactions.where(transaction_type: 'income').sum(:amount) || 0
+    @total_expenses = current_user.transactions.where(transaction_type: 'expense').sum(:amount) || 0
     @balance = @total_income - @total_expenses
     @recent_transactions = current_user.transactions.order(date: :desc).limit(5)
     @transaction = Transaction.new
   end
+  
 
   def create_transaction
     @transaction = current_user.transactions.build(transaction_params)
     if @transaction.save
       redirect_to home_path, notice: 'Transaction was successfully created.'
     else
+      # Recalculate these in case of a failed save
+      @total_income = current_user.transactions.where(transaction_type: 'income').sum(:amount) || 0
+      @total_expenses = current_user.transactions.where(transaction_type: 'expense').sum(:amount) || 0
+      @balance = @total_income - @total_expenses
+      @recent_transactions = current_user.transactions.order(date: :desc).limit(5)
       render :index
     end
   end
+  
 
   def edit_transaction
   end

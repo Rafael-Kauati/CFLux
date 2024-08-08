@@ -8,61 +8,63 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 </head>
 <body>
-  <header>
-    <h1>Welcome to Your Dashboard, <%= current_user.name %>!</h1>
-  </header>
+  <div class="container">
+    <header>
+      <h1 class="home-title">Welcome to Your Dashboard, <%= current_user.name %>!</h1>
+    </header>
 
-  <main>
-    <section>
-      <h2>Financial Summary</h2>
-      <p>Total Income: <%= number_to_currency(@total_income) %></p>
-      <p>Total Expenses: <%= number_to_currency(@total_expenses) %></p>
-      <p>Balance: <%= number_to_currency(@balance) %></p>
-    </section>
+    <main class="main-content">
+      <section class="left-section">
+        <h2>Add New Transaction</h2>
+        <%= render 'partials/transaction_form', transaction: @transaction %>
+      </section>
 
-    <section>
-      <h2>Your Recent Transactions</h2>
-      <% if @recent_transactions.any? %>
-        <table>
-          <thead>
-            <tr>
-              <th>Date</th>
-              <th>Category</th>
-              <th>Amount</th>
-              <th>Description</th>
-              <th>Type</th>
-              <th>Actions</th>
-            </tr>
-          </thead>
-          <tbody>
-            <% @recent_transactions.each do |transaction| %>
+      <section class="center-section">
+        <h2>Financial Summary</h2>
+        <p>Total Income: <%= number_to_currency(@total_income) %></p>
+        <p>Total Expenses: <%= number_to_currency(@total_expenses) %></p>
+        <p class="<%= balance_class(@balance) %>">Balance: <%= number_to_currency(@balance) %></p>
+      </section>
+
+      <section class="right-section">
+        <h2>Your Recent Transactions</h2>
+        <% if @recent_transactions.any? %>
+          <table>
+            <thead>
               <tr>
-                <td><%= transaction.date.strftime('%b %d, %Y') %></td>
-                <td><%= transaction.category %></td>
-                <td><%= number_to_currency(transaction.amount) %></td>
-                <td><%= transaction.description %></td>
-                <td><%= transaction.transaction_type.capitalize %></td>
-                <td>
-                  <%= link_to 'Edit', edit_transaction_path(transaction) %> | 
-            <%= button_to 'Delete', destroy_transaction_path(transaction), method: :delete, form: {data: {turbo_confirm: 'Are you sure?'}} %>
-                </td>
+                <th>Date</th>
+                <th>Category</th>
+                <th>Amount</th>
+                <th>Description</th>
+                <th>Type</th>
+                <th>Actions</th>
               </tr>
-            <% end %>
-          </tbody>
-        </table>
-      <% else %>
-        <p>You have no transactions yet.</p>
-      <% end %>
-    </section>
+            </thead>
+            <tbody>
+              <% @recent_transactions.each do |transaction| %>
+                <tr>
+                  <td><%= transaction.date.strftime('%b %d, %Y') %></td>
+                  <td><%= transaction.category %></td>
+                  <td><%= number_to_currency(transaction.amount) %></td>
+                  <td><%= transaction.description %></td>
+                  <td><%= transaction.transaction_type.capitalize %></td>
+                  <td>
+                    <%= link_to 'Edit', edit_transaction_path(transaction) %> | 
+                    <%= button_to 'Delete', destroy_transaction_path(transaction), method: :delete, form: {data: {turbo_confirm: 'Are you sure?'}} %>
+                  </td>
+                </tr>
+              <% end %>
+            </tbody>
+          </table>
+        <% else %>
+          <p>You have no transactions yet.</p>
+        <% end %>
+      </section>
+    </main>
 
-    <section>
-      <h2>Add New Transaction</h2>
-      <%= render 'partials/transaction_form', transaction: @transaction %>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; <%= Time.current.year %> Personal Finance Tracker. All rights reserved.</p>
-  </footer>
+    <footer>
+      <p>&copy; <%= Time.current.year %> Personal Finance Tracker CFlux. All rights reserved.</p>
+    </footer>
+  </div>
 </body>
 </html>
