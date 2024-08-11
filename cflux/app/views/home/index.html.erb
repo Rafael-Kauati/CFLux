@@ -30,8 +30,15 @@
   <h2>Your Recent Transactions</h2>
 
   <%= form_with(url: home_path, method: :get, local: true, class: "transaction-filter-form") do %>
-    <label for="transaction_type_filter">Filter by Type:</label>
-    <%= select_tag :transaction_type, options_for_select([['All', 'all'], ['Income', 'income'], ['Expense', 'expense']], params[:transaction_type] || 'all'), onchange: 'this.form.submit();' %>
+    <div>
+      <label for="transaction_type_filter">Filter by Type:</label>
+      <%= select_tag :transaction_type, options_for_select([['All', 'all'], ['Income', 'income'], ['Expense', 'expense']], params[:transaction_type] || 'all'), onchange: 'this.form.submit();' %>
+    </div>
+
+    <div>
+      <label for="transaction_category_filter">Filter by Category:</label>
+      <%= select_tag :transaction_category, options_for_select([['All', 'all'], ['Food', 'Food'], ['Education', 'Education'], ['Work', 'Work'], ['Health', 'Health'], ['Leisure', 'Leisure'], ['Tax', 'Tax']], params[:transaction_category] || 'all'), onchange: 'this.form.submit();' %>
+    </div>
   <% end %>
 
   <% if @recent_transactions.any? %>
@@ -63,7 +70,7 @@
       </tbody>
     </table>
   <% else %>
-    <p>You have no transactions yet.</p>
+    <p>No transactions found.</p>
   <% end %>
 </section>
 

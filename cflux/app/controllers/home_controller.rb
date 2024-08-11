@@ -8,14 +8,21 @@ class HomeController < ApplicationController
     @total_expenses = current_user.transactions.where(transaction_type: 'expense').sum(:amount) || 0
     @balance = @total_income - @total_expenses
 
-    # Filter Recent Transactions (based on the selected filter)
+    # Get filter parameters
     @transaction_type = params[:transaction_type] || 'all'
+    @transaction_category = params[:transaction_category] || 'all'
+
+    # Filter Recent Transactions (based on the selected filters)
     filtered_transactions = current_user.transactions.order(date: :desc)
 
-    if @transaction_type == 'income'
-      filtered_transactions = filtered_transactions.where(transaction_type: 'income')
-    elsif @transaction_type == 'expense'
-      filtered_transactions = filtered_transactions.where(transaction_type: 'expense')
+    # Apply type filter
+    if @transaction_type != 'all'
+      filtered_transactions = filtered_transactions.where(transaction_type: @transaction_type)
+    end
+
+    # Apply category filter
+    if @transaction_category != 'all'
+      filtered_transactions = filtered_transactions.where(category: @transaction_category)
     end
 
     @recent_transactions = filtered_transactions.limit(5)
