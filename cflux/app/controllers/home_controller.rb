@@ -3,10 +3,22 @@ class HomeController < ApplicationController
   before_action :set_transaction, only: [:edit_transaction, :update_transaction, :destroy_transaction]
 
   def index
+    # Calculate Financial Summary (not affected by the filter)
     @total_income = current_user.transactions.where(transaction_type: 'income').sum(:amount) || 0
     @total_expenses = current_user.transactions.where(transaction_type: 'expense').sum(:amount) || 0
     @balance = @total_income - @total_expenses
-    @recent_transactions = current_user.transactions.order(date: :desc).limit(5)
+
+    # Filter Recent Transactions (based on the selected filter)
+    @transaction_type = params[:transaction_type] || 'all'
+    filtered_transactions = current_user.transactions.order(date: :desc)
+
+    if @transaction_type == 'income'
+      filtered_transactions = filtered_transactions.where(transaction_type: 'income')
+    elsif @transaction_type == 'expense'
+      filtered_transactions = filtered_transactions.where(transaction_type: 'expense')
+    end
+
+    @recent_transactions = filtered_transactions.limit(5)
     @transaction = Transaction.new
   end
   
