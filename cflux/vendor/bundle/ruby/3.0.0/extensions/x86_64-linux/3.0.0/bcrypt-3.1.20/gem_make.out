@@ -3,10 +3,10 @@ current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bcr
 creating Makefile
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.20/ext/mri
-make DESTDIR\= sitearchdir\=./.gem.20240805-73404-d8rens sitelibdir\=./.gem.20240805-73404-d8rens clean
+make DESTDIR\= sitearchdir\=./.gem.20240808-138273-upu166 sitelibdir\=./.gem.20240808-138273-upu166 clean
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.20/ext/mri
-make DESTDIR\= sitearchdir\=./.gem.20240805-73404-d8rens sitelibdir\=./.gem.20240805-73404-d8rens
+make DESTDIR\= sitearchdir\=./.gem.20240808-138273-upu166 sitelibdir\=./.gem.20240808-138273-upu166
 compiling bcrypt_ext.c
 compiling crypt_blowfish.c
 gcc  -D__SKIP_GNU     -c -o x86.o x86.S
@@ -18,5 +18,5 @@ wrapper.c:182:60: warning: ‘struct crypt_data’ declared inside parameter lis
 linking shared-object bcrypt_ext.so
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.20/ext/mri
-make DESTDIR\= sitearchdir\=./.gem.20240805-73404-d8rens sitelibdir\=./.gem.20240805-73404-d8rens install
-/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20240805-73404-d8rens
+make DESTDIR\= sitearchdir\=./.gem.20240808-138273-upu166 sitelibdir\=./.gem.20240808-138273-upu166 install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20240808-138273-upu166
