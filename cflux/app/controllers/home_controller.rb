@@ -3,10 +3,40 @@ class HomeController < ApplicationController
   before_action :set_transaction, only: [:edit_transaction, :update_transaction, :destroy_transaction]
 
   def index
+    # Calculate Financial Summary (not affected by the filter)
     @total_income = current_user.transactions.where(transaction_type: 'income').sum(:amount) || 0
     @total_expenses = current_user.transactions.where(transaction_type: 'expense').sum(:amount) || 0
     @balance = @total_income - @total_expenses
-    @recent_transactions = current_user.transactions.order(date: :desc).limit(5)
+
+    # Get filter parameters
+    @transaction_type = params[:transaction_type] || 'all'
+    @transaction_category = params[:transaction_category] || 'all'
+    @date1 = params[:date1]
+    @date2 = params[:date2]
+
+    # Filter Recent Transactions (based on the selected filters)
+    filtered_transactions = current_user.transactions.order(date: :desc)
+
+    # Apply type filter
+    if @transaction_type != 'all'
+      filtered_transactions = filtered_transactions.where(transaction_type: @transaction_type)
+    end
+
+    # Apply category filter
+    if @transaction_category != 'all'
+      filtered_transactions = filtered_transactions.where(category: @transaction_category)
+    end
+
+    # Apply date range filter
+    if @date1.present? && @date2.present?
+      filtered_transactions = filtered_transactions.where(date: @date1..@date2)
+    elsif @date1.present?
+      filtered_transactions = filtered_transactions.where('date >= ?', @date1)
+    elsif @date2.present?
+      filtered_transactions = filtered_transactions.where('date <= ?', @date2)
+    end
+
+    @recent_transactions = filtered_transactions.limit(5)
     @transaction = Transaction.new
   end
   

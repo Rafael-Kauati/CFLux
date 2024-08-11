@@ -1,5 +1,8 @@
 # CFLux
 
+### Requirements : Have Ruby and Rails (preferably Rails 7 or > 7) installed locally
+<hr>
+
 ### Recommendation to build/install the rails dependencies at onces : 
 #### Note : this might take 5 minutes or more
 
