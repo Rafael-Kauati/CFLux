@@ -39,6 +39,16 @@
       <label for="transaction_category_filter">Filter by Category:</label>
       <%= select_tag :transaction_category, options_for_select([['All', 'all'], ['Food', 'Food'], ['Education', 'Education'], ['Work', 'Work'], ['Health', 'Health'], ['Leisure', 'Leisure'], ['Tax', 'Tax']], params[:transaction_category] || 'all'), onchange: 'this.form.submit();' %>
     </div>
+
+    <div>
+      <label for="date1_filter">From:</label>
+      <%= date_field_tag :date1, params[:date1], onchange: 'this.form.submit();' %>
+    </div>
+
+    <div>
+      <label for="date2_filter">To:</label>
+      <%= date_field_tag :date2, params[:date2], onchange: 'this.form.submit();' %>
+    </div>
   <% end %>
 
   <% if @recent_transactions.any? %>
@@ -70,7 +80,7 @@
       </tbody>
     </table>
   <% else %>
-    <p>No transactions found.</p>
+    <p>No transaction found</p>
   <% end %>
 </section>
 

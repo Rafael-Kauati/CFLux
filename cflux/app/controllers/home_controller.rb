@@ -11,6 +11,8 @@ class HomeController < ApplicationController
     # Get filter parameters
     @transaction_type = params[:transaction_type] || 'all'
     @transaction_category = params[:transaction_category] || 'all'
+    @date1 = params[:date1]
+    @date2 = params[:date2]
 
     # Filter Recent Transactions (based on the selected filters)
     filtered_transactions = current_user.transactions.order(date: :desc)
@@ -23,6 +25,15 @@ class HomeController < ApplicationController
     # Apply category filter
     if @transaction_category != 'all'
       filtered_transactions = filtered_transactions.where(category: @transaction_category)
+    end
+
+    # Apply date range filter
+    if @date1.present? && @date2.present?
+      filtered_transactions = filtered_transactions.where(date: @date1..@date2)
+    elsif @date1.present?
+      filtered_transactions = filtered_transactions.where('date >= ?', @date1)
+    elsif @date2.present?
+      filtered_transactions = filtered_transactions.where('date <= ?', @date2)
     end
 
     @recent_transactions = filtered_transactions.limit(5)
