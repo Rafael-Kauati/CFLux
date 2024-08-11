@@ -3,13 +3,13 @@ current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/str
 creating Makefile
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
-make DESTDIR\= sitearchdir\=./.gem.20240805-73404-saesg sitelibdir\=./.gem.20240805-73404-saesg clean
+make DESTDIR\= sitearchdir\=./.gem.20240808-138273-x80k8l sitelibdir\=./.gem.20240808-138273-x80k8l clean
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
-make DESTDIR\= sitearchdir\=./.gem.20240805-73404-saesg sitelibdir\=./.gem.20240805-73404-saesg
+make DESTDIR\= sitearchdir\=./.gem.20240808-138273-x80k8l sitelibdir\=./.gem.20240808-138273-x80k8l
 compiling stringio.c
 linking shared-object stringio.so
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/stringio-3.1.1/ext/stringio
-make DESTDIR\= sitearchdir\=./.gem.20240805-73404-saesg sitelibdir\=./.gem.20240805-73404-saesg install
-/usr/bin/install -c -m 0755 stringio.so ./.gem.20240805-73404-saesg
+make DESTDIR\= sitearchdir\=./.gem.20240808-138273-x80k8l sitelibdir\=./.gem.20240808-138273-x80k8l install
+/usr/bin/install -c -m 0755 stringio.so ./.gem.20240808-138273-x80k8l

@@ -32,14 +32,14 @@ checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
 creating Makefile
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240805-73404-6beci sitelibdir\=./.gem.20240805-73404-6beci clean
+make DESTDIR\= sitearchdir\=./.gem.20240808-138273-3beyx3 sitelibdir\=./.gem.20240808-138273-3beyx3 clean
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240805-73404-6beci sitelibdir\=./.gem.20240805-73404-6beci
+make DESTDIR\= sitearchdir\=./.gem.20240808-138273-3beyx3 sitelibdir\=./.gem.20240808-138273-3beyx3
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.so
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20240805-73404-6beci sitelibdir\=./.gem.20240805-73404-6beci install
-/usr/bin/install -c -m 0755 bigdecimal.so ./.gem.20240805-73404-6beci
+make DESTDIR\= sitearchdir\=./.gem.20240808-138273-3beyx3 sitelibdir\=./.gem.20240808-138273-3beyx3 install
+/usr/bin/install -c -m 0755 bigdecimal.so ./.gem.20240808-138273-3beyx3

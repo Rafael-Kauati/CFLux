@@ -5,13 +5,13 @@ checking for rb_reg_onig_match() in ruby.h... no
 creating Makefile
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
-make DESTDIR\= sitearchdir\=./.gem.20240805-73404-rh4tcy sitelibdir\=./.gem.20240805-73404-rh4tcy clean
+make DESTDIR\= sitearchdir\=./.gem.20240808-138273-p3gb9o sitelibdir\=./.gem.20240808-138273-p3gb9o clean
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
-make DESTDIR\= sitearchdir\=./.gem.20240805-73404-rh4tcy sitelibdir\=./.gem.20240805-73404-rh4tcy
+make DESTDIR\= sitearchdir\=./.gem.20240808-138273-p3gb9o sitelibdir\=./.gem.20240808-138273-p3gb9o
 compiling strscan.c
 linking shared-object strscan.so
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan
-make DESTDIR\= sitearchdir\=./.gem.20240805-73404-rh4tcy sitelibdir\=./.gem.20240805-73404-rh4tcy install
-/usr/bin/install -c -m 0755 strscan.so ./.gem.20240805-73404-rh4tcy
+make DESTDIR\= sitearchdir\=./.gem.20240808-138273-p3gb9o sitelibdir\=./.gem.20240808-138273-p3gb9o install
+/usr/bin/install -c -m 0755 strscan.so ./.gem.20240808-138273-p3gb9o

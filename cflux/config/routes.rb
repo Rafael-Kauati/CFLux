@@ -19,7 +19,7 @@ Rails.application.routes.draw do
   patch '/home/:id/update_transaction', to: 'home#update_transaction', as: :update_transaction
   delete '/home/:id/destroy_transaction', to: 'home#destroy_transaction', as: :destroy_transaction
 
-
+  resources :users
 
   # Resourceful routes for transactions
 

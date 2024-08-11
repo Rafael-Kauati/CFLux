@@ -3,11 +3,11 @@ current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/jso
 creating Makefile
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
-make DESTDIR\= sitearchdir\=./.gem.20240805-73404-webdps sitelibdir\=./.gem.20240805-73404-webdps clean
+make DESTDIR\= sitearchdir\=./.gem.20240808-138273-asgry9 sitelibdir\=./.gem.20240808-138273-asgry9 clean
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
-make DESTDIR\= sitearchdir\=./.gem.20240805-73404-webdps sitelibdir\=./.gem.20240805-73404-webdps
+make DESTDIR\= sitearchdir\=./.gem.20240808-138273-asgry9 sitelibdir\=./.gem.20240808-138273-asgry9
 make: Nada a ser feito para 'all'. 
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/json-2.7.2/ext/json
-make DESTDIR\= sitearchdir\=./.gem.20240805-73404-webdps sitelibdir\=./.gem.20240805-73404-webdps install
+make DESTDIR\= sitearchdir\=./.gem.20240808-138273-asgry9 sitelibdir\=./.gem.20240808-138273-asgry9 install

@@ -14,10 +14,10 @@ checking for whether -DSTR_UMINUS_DEDUPE_FROZEN=1 is accepted as CFLAGS... yes
 creating Makefile
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/msgpack-1.7.2/ext/msgpack
-make DESTDIR\= sitearchdir\=./.gem.20240805-73404-4cp1wq sitelibdir\=./.gem.20240805-73404-4cp1wq clean
+make DESTDIR\= sitearchdir\=./.gem.20240808-138273-nmcxkh sitelibdir\=./.gem.20240808-138273-nmcxkh clean
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/msgpack-1.7.2/ext/msgpack
-make DESTDIR\= sitearchdir\=./.gem.20240805-73404-4cp1wq sitelibdir\=./.gem.20240805-73404-4cp1wq
+make DESTDIR\= sitearchdir\=./.gem.20240808-138273-nmcxkh sitelibdir\=./.gem.20240808-138273-nmcxkh
 compiling buffer.c
 compiling buffer_class.c
 compiling extension_value_class.c
@@ -33,5 +33,5 @@ compiling unpacker_ext_registry.c
 linking shared-object msgpack/msgpack.so
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/msgpack-1.7.2/ext/msgpack
-make DESTDIR\= sitearchdir\=./.gem.20240805-73404-4cp1wq sitelibdir\=./.gem.20240805-73404-4cp1wq install
-/usr/bin/install -c -m 0755 msgpack.so ./.gem.20240805-73404-4cp1wq/msgpack
+make DESTDIR\= sitearchdir\=./.gem.20240808-138273-nmcxkh sitelibdir\=./.gem.20240808-138273-nmcxkh install
+/usr/bin/install -c -m 0755 msgpack.so ./.gem.20240808-138273-nmcxkh/msgpack
