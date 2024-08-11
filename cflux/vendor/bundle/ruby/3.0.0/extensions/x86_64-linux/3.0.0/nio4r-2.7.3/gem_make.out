@@ -13,10 +13,10 @@ checking for sys/resource.h... yes
 creating Makefile
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/nio4r-2.7.3/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20240808-138273-sr3ckw sitelibdir\=./.gem.20240808-138273-sr3ckw clean
+make DESTDIR\= sitearchdir\=./.gem.20240811-53045-lp99yu sitelibdir\=./.gem.20240811-53045-lp99yu clean
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/nio4r-2.7.3/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20240808-138273-sr3ckw sitelibdir\=./.gem.20240808-138273-sr3ckw
+make DESTDIR\= sitearchdir\=./.gem.20240811-53045-lp99yu sitelibdir\=./.gem.20240811-53045-lp99yu
 compiling bytebuffer.c
 compiling monitor.c
 compiling nio4r_ext.c
@@ -46,5 +46,5 @@ selector.c:525:5: warning: ignoring return value of ‘write’ declared with at
 linking shared-object nio4r_ext.so
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/nio4r-2.7.3/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20240808-138273-sr3ckw sitelibdir\=./.gem.20240808-138273-sr3ckw install
-/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20240808-138273-sr3ckw
+make DESTDIR\= sitearchdir\=./.gem.20240811-53045-lp99yu sitelibdir\=./.gem.20240811-53045-lp99yu install
+/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20240811-53045-lp99yu

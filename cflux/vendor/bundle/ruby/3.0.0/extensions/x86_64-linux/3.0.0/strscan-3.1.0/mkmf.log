@@ -91,7 +91,7 @@ checked program was:
 /* end */
 
 "gcc -o conftest -I/usr/include/ruby-3.0.0/x86_64-linux -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.    -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -g -ffile-prefix-map=/build/ruby/src=/usr/src/debug/ruby -fPIC conftest.c  -L. -L/usr/lib -L. -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby  -lm   -lc"
-/usr/bin/ld: /tmp/ccNCz94u.o: na função "t":
+/usr/bin/ld: /tmp/ccCZftgE.o: na função "t":
 /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/strscan-3.1.0/ext/strscan/conftest.c:17:(.text+0xc): undefined reference to `rb_reg_onig_match'
 collect2: error: ld returned 1 exit status
 checked program was:

@@ -3,10 +3,10 @@ current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/sas
 creating Makefile
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20240808-138273-cswjvs sitelibdir\=./.gem.20240808-138273-cswjvs clean
+make DESTDIR\= sitearchdir\=./.gem.20240811-53045-6q4ljn sitelibdir\=./.gem.20240811-53045-6q4ljn clean
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20240808-138273-cswjvs sitelibdir\=./.gem.20240808-138273-cswjvs
+make DESTDIR\= sitearchdir\=./.gem.20240811-53045-6q4ljn sitelibdir\=./.gem.20240811-53045-6q4ljn
 compiling ./libsass/src/ast.cpp
 compiling ./libsass/src/ast2c.cpp
 compiling ./libsass/src/ast_fwd_decl.cpp
@@ -76,5 +76,5 @@ compiling ./libsass/src/values.cpp
 linking shared-object sassc/libsass.so
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
-make DESTDIR\= sitearchdir\=./.gem.20240808-138273-cswjvs sitelibdir\=./.gem.20240808-138273-cswjvs install
-/usr/bin/install -c -m 0755 libsass.so ./.gem.20240808-138273-cswjvs/sassc
+make DESTDIR\= sitearchdir\=./.gem.20240811-53045-6q4ljn sitelibdir\=./.gem.20240811-53045-6q4ljn install
+/usr/bin/install -c -m 0755 libsass.so ./.gem.20240811-53045-6q4ljn/sassc

@@ -1,4 +1,4 @@
-# CFLux - A personal finance tracker project made with Rails and Ruby 
+# CFLux - A personal finance tracker project, that allows to create, edit, delete and fetches transactions, made with Rails and Ruby 
 
 ![Welcome](screenshots/welcome.png)
 ![Welcome](screenshots/Login.png)
@@ -8,7 +8,7 @@
 ### Requirements : Have Ruby and Rails (preferably Rails 7 or > 7) installed locally
 <hr>
 
-### Recommendation to build/install the rails dependencies at onces (from the root of the project) : 
+### Recommendation to build/install the rails dependencies at onces (from the root of the project), or install via bundle : 
 #### Note : this might take 5 minutes or more
 
 ```

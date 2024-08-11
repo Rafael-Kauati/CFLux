@@ -111,7 +111,7 @@ checked program was:
 have_func: checking for _lzcnt_u32() in x86intrin.h... -------------------- no
 
 "gcc -o conftest -I/usr/include/ruby-3.0.0/x86_64-linux -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.    -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -g -ffile-prefix-map=/build/ruby/src=/usr/src/debug/ruby -fPIC conftest.c  -L. -L/usr/lib -L. -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby  -lm   -lc"
-/usr/bin/ld: /tmp/ccs9Qy5r.o: na função "t":
+/usr/bin/ld: /tmp/ccPgcrul.o: na função "t":
 /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bigdecimal-3.1.8/ext/bigdecimal/conftest.c:16:(.text+0x7): undefined reference to `_lzcnt_u32'
 collect2: error: ld returned 1 exit status
 checked program was:
@@ -138,10 +138,10 @@ checked program was:
 conftest.c:16:13: error: conflicting types for ‘_lzcnt_u32’; have ‘void()’
    16 | extern void _lzcnt_u32();
       |             ^~~~~~~~~~
-In file included from /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/x86gprintrin.h:61,
-                 from /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/x86intrin.h:27,
+In file included from /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/x86gprintrin.h:61,
+                 from /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/x86intrin.h:27,
                  from conftest.c:3:
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/lzcntintrin.h:51:1: note: previous definition of ‘_lzcnt_u32’ with type ‘unsigned int(unsigned int)’
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/lzcntintrin.h:51:1: note: previous definition of ‘_lzcnt_u32’ with type ‘unsigned int(unsigned int)’
    51 | _lzcnt_u32 (unsigned int __X)
       | ^~~~~~~~~~
 checked program was:
@@ -170,7 +170,7 @@ checked program was:
 have_func: checking for _lzcnt_u64() in x86intrin.h... -------------------- no
 
 "gcc -o conftest -I/usr/include/ruby-3.0.0/x86_64-linux -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.    -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -g -ffile-prefix-map=/build/ruby/src=/usr/src/debug/ruby -fPIC conftest.c  -L. -L/usr/lib -L. -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby  -lm   -lc"
-/usr/bin/ld: /tmp/cc8DMsFt.o: na função "t":
+/usr/bin/ld: /tmp/ccPnELFj.o: na função "t":
 /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bigdecimal-3.1.8/ext/bigdecimal/conftest.c:16:(.text+0x7): undefined reference to `_lzcnt_u64'
 collect2: error: ld returned 1 exit status
 checked program was:
@@ -197,10 +197,10 @@ checked program was:
 conftest.c:16:13: error: conflicting types for ‘_lzcnt_u64’; have ‘void()’
    16 | extern void _lzcnt_u64();
       |             ^~~~~~~~~~
-In file included from /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/x86gprintrin.h:61,
-                 from /usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/x86intrin.h:27,
+In file included from /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/x86gprintrin.h:61,
+                 from /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/x86intrin.h:27,
                  from conftest.c:3:
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/lzcntintrin.h:64:1: note: previous definition of ‘_lzcnt_u64’ with type ‘long long unsigned int(long long unsigned int)’
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/lzcntintrin.h:64:1: note: previous definition of ‘_lzcnt_u64’ with type ‘long long unsigned int(long long unsigned int)’
    64 | _lzcnt_u64 (unsigned long long __X)
       | ^~~~~~~~~~
 checked program was:
@@ -567,7 +567,7 @@ checked program was:
 /* end */
 
 "gcc -o conftest -I/usr/include/ruby-3.0.0/x86_64-linux -I/usr/include/ruby-3.0.0/ruby/backward -I/usr/include/ruby-3.0.0 -I.    -march=x86-64 -mtune=generic -O2 -pipe -fno-plt -fexceptions         -Wp,-D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security         -fstack-clash-protection -fcf-protection -g -ffile-prefix-map=/build/ruby/src=/usr/src/debug/ruby -fPIC conftest.c  -L. -L/usr/lib -L. -Wl,-O1,--sort-common,--as-needed,-z,relro,-z,now -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -lruby  -lm   -lc"
-/usr/bin/ld: /tmp/ccViAArD.o: na função "t":
+/usr/bin/ld: /tmp/ccnitw0p.o: na função "t":
 /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/bigdecimal-3.1.8/ext/bigdecimal/conftest.c:17:(.text+0xc): undefined reference to `__builtin_isfinite'
 collect2: error: ld returned 1 exit status
 checked program was:

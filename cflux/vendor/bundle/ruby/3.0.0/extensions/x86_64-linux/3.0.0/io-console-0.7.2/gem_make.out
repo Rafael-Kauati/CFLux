@@ -13,13 +13,13 @@ checking for rb_scheduler_timeout()... no
 creating Makefile
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20240808-138273-rkvibc sitelibdir\=./.gem.20240808-138273-rkvibc clean
+make DESTDIR\= sitearchdir\=./.gem.20240811-53045-5fs25g sitelibdir\=./.gem.20240811-53045-5fs25g clean
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20240808-138273-rkvibc sitelibdir\=./.gem.20240808-138273-rkvibc
+make DESTDIR\= sitearchdir\=./.gem.20240811-53045-5fs25g sitelibdir\=./.gem.20240811-53045-5fs25g
 compiling console.c
 linking shared-object io/console.so
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/io-console-0.7.2/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20240808-138273-rkvibc sitelibdir\=./.gem.20240808-138273-rkvibc install
-/usr/bin/install -c -m 0755 console.so ./.gem.20240808-138273-rkvibc/io
+make DESTDIR\= sitearchdir\=./.gem.20240811-53045-5fs25g sitelibdir\=./.gem.20240811-53045-5fs25g install
+/usr/bin/install -c -m 0755 console.so ./.gem.20240811-53045-5fs25g/io

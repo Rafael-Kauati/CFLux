@@ -14,15 +14,15 @@ checking for Random.bytes... yes
 creating Makefile
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/puma-6.4.2/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20240808-138273-emccco sitelibdir\=./.gem.20240808-138273-emccco clean
+make DESTDIR\= sitearchdir\=./.gem.20240811-53045-w2c6dw sitelibdir\=./.gem.20240811-53045-w2c6dw clean
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/puma-6.4.2/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20240808-138273-emccco sitelibdir\=./.gem.20240808-138273-emccco
+make DESTDIR\= sitearchdir\=./.gem.20240811-53045-w2c6dw sitelibdir\=./.gem.20240811-53045-w2c6dw
 compiling http11_parser.c
 compiling mini_ssl.c
 compiling puma_http11.c
 linking shared-object puma/puma_http11.so
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/puma-6.4.2/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20240808-138273-emccco sitelibdir\=./.gem.20240808-138273-emccco install
-/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20240808-138273-emccco/puma
+make DESTDIR\= sitearchdir\=./.gem.20240811-53045-w2c6dw sitelibdir\=./.gem.20240811-53045-w2c6dw install
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20240811-53045-w2c6dw/puma
