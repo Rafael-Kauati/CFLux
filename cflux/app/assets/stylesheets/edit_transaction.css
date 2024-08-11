@@ -1,0 +1,63 @@
+/* edit_transaction.css */
+.edit-transaction-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .edit-transaction-form .field {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-transaction-form .field label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .edit-transaction-form .field input,
+  .edit-transaction-form .field select,
+  .edit-transaction-form .field textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .edit-transaction-form .actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .edit-transaction-form .actions input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .edit-transaction-form .actions input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  #error_explanation {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  

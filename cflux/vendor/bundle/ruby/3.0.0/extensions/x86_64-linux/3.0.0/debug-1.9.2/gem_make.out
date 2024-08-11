@@ -3,14 +3,14 @@ current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/deb
 creating Makefile
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/debug-1.9.2/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-f1iuwx sitelibdir\=./.gem.20240723-144562-f1iuwx clean
+make DESTDIR\= sitearchdir\=./.gem.20240811-53045-5gx7s7 sitelibdir\=./.gem.20240811-53045-5gx7s7 clean
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/debug-1.9.2/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-f1iuwx sitelibdir\=./.gem.20240723-144562-f1iuwx
+make DESTDIR\= sitearchdir\=./.gem.20240811-53045-5gx7s7 sitelibdir\=./.gem.20240811-53045-5gx7s7
 compiling debug.c
 compiling iseq_collector.c
 linking shared-object debug/debug.so
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/debug-1.9.2/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-f1iuwx sitelibdir\=./.gem.20240723-144562-f1iuwx install
-/usr/bin/install -c -m 0755 debug.so ./.gem.20240723-144562-f1iuwx/debug
+make DESTDIR\= sitearchdir\=./.gem.20240811-53045-5gx7s7 sitelibdir\=./.gem.20240811-53045-5gx7s7 install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20240811-53045-5gx7s7/debug

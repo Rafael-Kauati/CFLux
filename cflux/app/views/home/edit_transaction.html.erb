@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Edit Transaction</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= stylesheet_link_tag 'edit_transaction', media: 'all', 'data-turbolinks-track': 'reload' %>
+</head>
+<body>
+  <header>
+    <h1>Edit Transaction</h1>
+  </header>
+
+  <main>
+    <%= form_with(model: @transaction, url: update_transaction_path(@transaction), local: true, method: :patch, html: { class: 'edit-transaction-form' }) do |form| %>
+      <% if @transaction.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@transaction.errors.count, "error") %> prohibited this transaction from being saved:</h2>
+          <ul>
+            <% @transaction.errors.full_messages.each do |message| %>
+              <li><%= message %></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+
+      <div class="field">
+        <%= form.label :date %>
+        <%= form.date_field :date %>
+      </div>
+
+      <div class="field">
+        <%= form.label :category %>
+        <%= form.select :category, options_for_select(Transaction::CATEGORIES, @transaction.category) %>
+      </div>
+
+      <div class="field">
+        <%= form.label :amount %>
+        <%= form.number_field :amount, step: 0.01 %>
+      </div>
+
+      <div class="field">
+        <%= form.label :description %>
+        <%= form.text_area :description %>
+      </div>
+
+      <div class="field">
+        <%= form.label :transaction_type %>
+        <%= form.select :transaction_type, [['Income', 'income'], ['Expense', 'expense']] %>
+      </div>
+
+      <div class="actions">
+        <%= form.submit 'Update Transaction' %>
+      </div>
+    <% end %>
+  </main>
+
+  <footer>
+    <p>&copy; <%= Time.current.year %> Personal Finance Tracker. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -6,10 +6,10 @@ checking for altzone in time.h with  -Werror... no
 creating Makefile
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/date-3.3.4/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-lo0vwg sitelibdir\=./.gem.20240723-144562-lo0vwg clean
+make DESTDIR\= sitearchdir\=./.gem.20240811-53045-vmjbf2 sitelibdir\=./.gem.20240811-53045-vmjbf2 clean
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/date-3.3.4/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-lo0vwg sitelibdir\=./.gem.20240723-144562-lo0vwg
+make DESTDIR\= sitearchdir\=./.gem.20240811-53045-vmjbf2 sitelibdir\=./.gem.20240811-53045-vmjbf2
 compiling date_core.c
 compiling date_parse.c
 compiling date_strftime.c
@@ -17,5 +17,5 @@ compiling date_strptime.c
 linking shared-object date_core.so
 
 current directory: /home/tk/ilhwae/CFlux/cflux/vendor/bundle/ruby/3.0.0/gems/date-3.3.4/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20240723-144562-lo0vwg sitelibdir\=./.gem.20240723-144562-lo0vwg install
-/usr/bin/install -c -m 0755 date_core.so ./.gem.20240723-144562-lo0vwg
+make DESTDIR\= sitearchdir\=./.gem.20240811-53045-vmjbf2 sitelibdir\=./.gem.20240811-53045-vmjbf2 install
+/usr/bin/install -c -m 0755 date_core.so ./.gem.20240811-53045-vmjbf2
